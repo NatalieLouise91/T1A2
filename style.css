@@ -317,6 +317,40 @@ h2{
   }
   /* end of styling for experience page */
 
+  /* start of styling for blog page  */
+
+  .blog1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #E8E8E8;
+    border: solid #333a56;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px;
+  }
+  .blog2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   /* responsive media queries  */
 
 /* For mobile phones: */
