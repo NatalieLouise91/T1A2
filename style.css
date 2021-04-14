@@ -420,6 +420,103 @@ h3 {
     width: 560px;
     height: 372px;
 }
+/* end of styling for blog page  */
+/* start of styling for contact page  */
+input[type=text] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+form {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase; 
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* fix flexbox  */
+}
+.github_button {
+  background-color: #f4f4f4;
+  border: solid 1px;
+  color: #373737;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  transition-duration: 1.2s;
+  cursor:pointer;
+}
+.github_button:hover {
+  background-color: #333a56;
+  color:#f4f4f4;
+  font-size: 20px;
+}
+.linkedin_button {
+  background-color: #f4f4f4;
+  border: solid 1px;
+  color: #373737;
+  font-size:16px;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  transition-duration: 1.2s;
+  cursor:pointer;
+}
+.linkedin_button:hover {
+  background-color: #333a56;
+  color:#f4f4f4;
+  font-size: 20px;
+}
+input[type=submit] {
+  background-color: #f4f4f4;
+  border: solid 1px;
+  color: #373737;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  transition-duration: 1.2s;
+  cursor:pointer;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+input[type=submit]:hover {
+  background-color: #333a56;
+  color:#f4f4f4;
+  font-size: 20px;
+}
+/* end of styling for contact page  */
 /* the start of media queries for blog page  */
 /* For mobile phones: */
 

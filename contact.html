@@ -19,20 +19,42 @@
          <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav> 
-    <form>
-        <label for="message">Leave me a message!</label>
+    <section class ="contact_info">
+        <h1>Contact Me</h1>
+        <h2>Get in Touch With Me</h2>
+        <p>
+         <a href="https://github.com/NatalieLouise91"><button class="github_button">GitHub</button></a>
+         <a href="https://www.linkedin.com/in/natalie-bottema-6b8164207/"><button class="linkedin_button">Linkedin</button></a>
+        </p>
+        <address>
+
+        </address>
+    </section>
+    <section class="contact_form">
         <br>
-        <input type="text" id="message" name = "message">
-        <br>
-        <input type="submit" value="Submit">
-    </form>
-    <footer>
-        <div class="copyright">
-            <p>&copy; Copyright 2021 Natalie Bottema</p>
-            <img src="" class="linkedin" alt="Linkedin Icon"/>
-            <img src="" class="github" alt="GitHub Icon"/>
+        <h2>Let's Work Together</h2>
+        <form action="mailto:natalie936@hotmail.com"
+        method ="POST"
+        enctype="multipart/form-data"
+        name="Emailform">
+        Name: <br>
+        <input type="text" size="19" name="ContactName"><br><br>
+        Message: <br><textarea name ="ContactComment" rows="6" cols="20">
+            </textarea><br><br> <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="media_icons">
+            <a href="https://www.linkedin.com/in/natalie-bottema-6b8164207/">
+            <img src="./icons/linkedin-32px.png" class="linkedin" alt="Linkedin Icon"/>
+            </a>
+            <a href="https://github.com/NatalieLouise91">
+            <img src="./icons/GitHub-Mark-32px.png" class="github" alt="GitHub Icon"/>
+            </a>
+            <div class="copyright">
+                <p>&copy; Copyright 2021 Natalie Bottema</p>
+            </div>
         </div>
-     <!-- put github, linkedin & copyright in the footer -->
     </footer>
 </body>
 </html>
