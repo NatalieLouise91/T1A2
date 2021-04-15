@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   }
+/* universal styling across site */
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 16px;
     color: #333a56;
     font-family: "Raleway", sans-serif;
@@ -58,8 +59,11 @@ h3 {
 
   .footer {
     width:100%;
-    height:15%;
+    height: 10%;
     background: #f4f4f4;
+    margin: 0;
+    position: static;
+    bottom: 0; 
   }
   .navigation {
     position:absolute;
@@ -76,7 +80,7 @@ h3 {
     font-size:20px;
     font-family: 'Raleway', sans-serif;
     color: #03143D;
-    margin-right:100px;
+    /* margin-right:100px; */
     list-style-type: none;
     overflow: hidden;
   }
@@ -427,16 +431,24 @@ input[type=text] {
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
+  border: solid 2px #333a56;
   border-radius: 10px;
   background-color: #f4f4f4;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 textarea {
   width: 90%;
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
+  border: solid 2px #333a56;
   border-radius: 10px;
   background-color: #f4f4f4;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  resize: none;
+  
 }
 form {
   font-family: "Raleway", sans-serif;
@@ -447,6 +459,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .contact_info {
@@ -454,8 +467,21 @@ form {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* fix flexbox  */
+  background: #E8E8E8;
+  border: solid #333a56;
+  border-radius: 25px;
+  padding: 5%;
+  width: 90%;
 }
+.contact_content_all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 5%;
+  }
+  /* fix flexbox  */
 .github_button {
   background-color: #f4f4f4;
   border: solid 1px;
@@ -517,18 +543,18 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 /* end of styling for contact page  */
-/* the start of media queries for blog page  */
-/* For mobile phones: */
 
+/* For mobile phones: */
 [class*="col-"] {
   width: 100%;
 }
-/* small mobile phones  */
+/* Start of Media Queries for Small Mobile Phones  */
 @media only screen and (min-width: 320px) {
 body {
   width: 100%;
   display:block;
 }
+/* universal styling across site  */
 h1 {
   font-size: 20px;
   padding-top: 50px;
@@ -545,6 +571,7 @@ p{
 .navigation {
   font-size: 14px;
 }
+/* blog page styling  */
 .computer_img {
   width:210px;
   height:140px;
@@ -565,11 +592,17 @@ p{
   width:245px;
   height:163px; 
 }
+/* contact page styling  */
+form {
+  font-size: 16px;
+  padding: 5%; 
+}
 }
 
-/* medium mobile phones  */
+/* Start of Media Queries Medium Mobile Phones  */
 
 @media only screen and (min-width: 375px) {
+  /* universal styling across site  */
   body {
     width: 100%;
     display:block;
@@ -590,6 +623,7 @@ p{
   .navigation {
     font-size: 14px;
   }
+  /* blog page styling  */
   .computer_img {
     width:240px;
     height:160px;
@@ -610,10 +644,17 @@ p{
     width:280px;
     height:186px; 
   }
+  /* contact page styling */
+form {
+  font-size: 16px;
+  padding: 5%; 
 }
-/* large mobile phones  */
+}
+/* End of Media Queries Medium Mobile Phones  */
+/* Start of Media Queries for Large Mobile Phones  */
 
 @media only screen and (min-width: 425px) {
+  /* universal styling across site */
   body {
     width: 100%;
     display:block;
@@ -634,6 +675,7 @@ p{
   .navigation {
     font-size: 15px;
   }
+  /* blog page styling  */
   .computer_img {
     width:300px;
     height:200px;
@@ -654,10 +696,17 @@ p{
     width:350px;
     height:233px; 
   }
+/* contact page styling */
+  form {
+  font-size: 16px;
+  padding: 5%; 
 }
-/* tablet  */
+}
+/* End of Media Queries for Large Mobile Phones  */
+/* Start of Media Queries for Tablet*/
 
 @media only screen and (min-width: 768px) {
+    /* universal styling across site */
   body {
     width: 100%;
     display:block;
@@ -678,6 +727,16 @@ p{
   .navigation {
     font-size: 16px;
   }
+  /* about page styling  */
+  .develop {width: 48.66%; height: 30%;
+  }
+  .collaborate {width: 48.66%; height: 30%;
+  }
+  .language {width: 48.66%; height: 30%;
+  }
+  .travel {width: 48.66%; height: 30%;
+  }
+   /* blog page styling  */
   .computer_img {
     width:420px;
     height:280px;
@@ -698,13 +757,16 @@ p{
     width:490px;
     height:326px; 
   }
-  .develop {width: 48.66%; height: 30%;}
-  .collaborate {width: 48.66%; height: 30%;}
-  .language {width: 48.66%; height: 30%;}
-  .travel {width: 48.66%; height: 30%;}
+/* contact page styling */
+  form {
+    font-size: 17px;
+    padding: 5%; 
+  }
 }
-/* Laptop  */
+/* End of Media Queries for Tablet*/
+/* Start of Media Queries for Standard Laptop  */
 @media only screen and (min-width: 1024px) {
+/* universal styling across site */
   body {
     width: 100%;
     display:block;
@@ -725,6 +787,20 @@ p{
   .navigation {
     font-size: 18px;
   }
+/* about page styling  */
+  .develop {
+    width: 48.66%;
+  }
+  .collaborate {
+    width: 48.66%;
+  }
+  .language {
+    width: 48.66%;
+  }
+  .travel {
+    width: 48.66%;
+  }
+/* blog page styling  */
   .computer_img {
     width:480px;
     height:320px;
@@ -745,13 +821,37 @@ p{
     width:560px;
     height:372px; 
   }
-  .develop {width: 48.66%;}
-  .collaborate {width: 48.66%;}
-  .language {width: 48.66%;}
-  .travel {width: 48.66%;}
+/* contact page styling */
+  form {
+    font-size: 17px;
+    padding: 5%;
+  }
+  .contact_content_all {
+    display:flex;
+    flex-direction: row;
+  }
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    margin: 2%;
+    width: 40%;
+  }
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    width: 40%;
+  }
 }
-/* Large Laptop  */
+/* End of Media Queries for Standard Laptop  */
+/* Start of Media Queries for Large Laptop  */
 @media only screen and (min-width: 1440px) {
+/* universal styling across site */
   body {
     width: 100%;
     display:block;
@@ -760,14 +860,19 @@ p{
     font-size:25px;
     padding-top: 65px;
   }
-
-  h2{font-size:22px;}
-  h3{font-size:20px;}
-  p{font-size:17px;}
+  h2 {
+    font-size:22px;
+  }
+  h3 {
+    font-size:20px;
+  }
+  p {
+    font-size:17px;
+  }
   .navigation {
     font-size: 20px;
   }
-  
+/* blog page styling  */
   .computer_img {
     width: 540px;
     height: 360px;
@@ -788,9 +893,20 @@ p{
     width: 630px;
     height: 419px; 
   }
+/* contact page styling */
+  form {
+    font-size: 18px;
+    padding: 5%;
+  }
+  .contact_content_all {
+    display:flex;
+    flex-direction: row;
+  }
 }
-/* Desktop  */
+/* End of Media Queries for Large Laptop  */
+/* Start of Media Queries for Desktop  */
 @media only screen and (min-width: 2560px) {
+/* universal styling across site */
   body {
     width: 100%;
     display:block;
@@ -811,6 +927,7 @@ p{
   p{
     font-size:20px;
   }
+/* blog page styling  */
   .computer_img {
     width:600px;
     height:400px;
@@ -846,11 +963,18 @@ p{
   .blog5 {
     padding: 20px;
   }
+/* contact page styling */
+  form {
+    font-size: 20px;
+    padding: 5%;
+  }
+  .contact_content_all {
+    display:flex;
+    flex-direction: row;
+  }
 }
+/* End of Media Queries for Desktop  */
 
-/* the end of media queries for blog page  */
-
-  /* responsive media queries  */
 
 /* For mobile phones: */
 [class*="col-"] {    
