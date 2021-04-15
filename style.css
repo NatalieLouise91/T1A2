@@ -54,7 +54,15 @@ h3 {
     text-transform: uppercase;
   }
   .media_icons {
-    text-align:right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+  }
+  .linkedin {
+    padding-right: 5px;
+  }
+  .github {
+    padding-left: 5px; 
   }
 
   .footer {
@@ -158,8 +166,75 @@ h3 {
   }
   /* ^^universal styling across site^^ */
 
-  /* start of styling for about page */
+  /* start of styling for index page  */
+  .title {
+    padding-top: 10%;
+    font-size: 30px;
+  }
+  .index_content_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1%;
+    box-sizing: border-box;
+  }
+  .home_container_1 {
+    width: 90%;
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border: solid #333a56;
+    border-radius: 25px;
+    padding:20px;
+  }
+  .home_container_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border: solid #333a56;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  .html_icon {
+    width: 30px;
+    height: 30px;
+  }
+  .css_icon {
+    width: 30px;
+    height: 30px;
+  }
+  .ruby_icon {
+    width: 30px;
+    height: 30px;
+  }
+  .html_icon:hover {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+  }
+  .css_icon:hover {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+  }
+  .ruby_icon:hover {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+  }
 
+
+
+  /* start of styling for about page */
 
   .intro_about_me {
     width: 100%;
@@ -321,7 +396,6 @@ h3 {
     transition-duration: 1s;
     
   }
-
   .button:hover {
     background-color: #333a56;
     color:#f4f4f4;
@@ -480,8 +554,7 @@ form {
   justify-content: center;
   /* align-items: center; */
   margin-top: 5%;
-  }
-  /* fix flexbox  */
+}
 .github_button {
   background-color: #f4f4f4;
   border: solid 1px;
@@ -543,7 +616,7 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 /* end of styling for contact page  */
-
+/* start of All Media Queries  */
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
@@ -570,6 +643,11 @@ p{
 }
 .navigation {
   font-size: 14px;
+}
+/* index page styling  */
+.profile_img {
+  width:245px;
+  height:163px;
 }
 /* blog page styling  */
 .computer_img {
@@ -623,6 +701,11 @@ form {
   .navigation {
     font-size: 14px;
   }
+  /* index page styling  */
+  .profile_img {
+    width:280px;
+    height:186px;
+  }
   /* blog page styling  */
   .computer_img {
     width:240px;
@@ -675,6 +758,11 @@ form {
   .navigation {
     font-size: 15px;
   }
+  /* index page styling  */
+  .profile_img {
+    width:350px;
+    height:233px;
+  }
   /* blog page styling  */
   .computer_img {
     width:300px;
@@ -726,6 +814,11 @@ form {
   }
   .navigation {
     font-size: 16px;
+  }
+  /* index page styling  */
+  .profile_img {
+    width:490px;
+    height:326px;
   }
   /* about page styling  */
   .develop {width: 48.66%; height: 30%;
@@ -786,6 +879,11 @@ form {
   }
   .navigation {
     font-size: 18px;
+  }
+/* index page styling  */
+  .profile_img {
+    width:560px;
+    height:372px;
   }
 /* about page styling  */
   .develop {
@@ -872,6 +970,11 @@ form {
   .navigation {
     font-size: 20px;
   }
+/* index page styling  */
+  .profile_img {
+    width:630px;
+    height:419px;
+ }
 /* blog page styling  */
   .computer_img {
     width: 540px;
@@ -927,6 +1030,11 @@ form {
   p{
     font-size:20px;
   }
+/* index page styling  */
+ .profile_img {
+   width:700px;
+   height:466px;
+ }
 /* blog page styling  */
   .computer_img {
     width:600px;

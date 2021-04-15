@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title>Natalie's Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1 class="Title">Hello My Name is Natalie.</h1>
-    </header>
     <nav>
         <ul class="navigation">
          <li><a href="./index.html">Home</a></li>
@@ -20,23 +19,30 @@
          <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
-    <section class="home_container_1">
-        <img src ="" class = "profile_image" alt=""/>
-        <h1 class="Position">I am a Full-Stack Developer in Training</h1>
-    </section>
-    <section class="home_container_2">
-        <img src="" class ="html_icon" alt="html language icon"/>
-        <img src="" class ="css_icon" alt="html language icon"/>
-        <img src="" class ="sass_icon" alt="html language icon"/>
-        <img src="" class ="ruby_icon" alt="html language icon"/>
+    <section class="index_content_container">
+        <section class="home_container_1">
+            <h1 class="Title">Hello My Name is Natalie.</h1>
+            <img src ="./images/wireframe.jpg" class = "profile_img" alt="image of me smiling"/>
+            <h1 class="Position">I am a Full-Stack Developer in Training</h1>
+        </section>
+        <section class="home_container_2">
+            <img src="./icons/html-64px.png" class ="html_icon" alt="HTML program icon"/>
+            <img src="./icons/css-3-64px.png" class ="css_icon" alt="CSS program icon"/>
+            <img src="./icons/Ruby-50px.png" class ="ruby_icon" alt="Ruby program icon"/>
+        </section>
     </section>    
-    <footer>
+    <footer class="footer">
+        <div class="media_icons">
+            <a href="https://www.linkedin.com/in/natalie-bottema-6b8164207/">
+            <img src="./icons/linkedin-32px.png" class="linkedin" alt="Linkedin Icon"/>
+            </a>
+            <a href="https://github.com/NatalieLouise91">
+            <img src="./icons/GitHub-Mark-32px.png" class="github" alt="GitHub Icon"/>
+            </a>
+        </div>
         <div class="copyright">
             <p>&copy; Copyright 2021 Natalie Bottema</p>
-            <img src="" class="linkedin" alt="Linkedin Icon"/>
-            <img src="" class="github" alt="GitHub Icon"/>
         </div>
-     <!-- put github, linkedin & copyright in the footer -->
     </footer>
 </body>
 </html>
