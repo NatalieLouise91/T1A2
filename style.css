@@ -92,8 +92,19 @@ h3 {
     list-style-type: none;
     overflow: hidden;
   }
-
   /* testing animated hamburger menu  */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1;
+    backdrop-filter: blur (5px);
+  }
+  
   .menu-items {
     list-style: none;
     display: flex;
@@ -103,10 +114,11 @@ h3 {
     font-size: 1rem;
     padding: 0.5em 1em;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-
   }
 
-  .menu-items li a:hover {background-color:#f4f4f4}
+  .menu-items li a:hover {
+    background:#f4f4f4
+  }
 
   /* navigation menu button */
   .menu-button {
@@ -134,7 +146,6 @@ h3 {
   }
   .menu_button_lines::before {
     transform: translateY(-0.5rem);
-
   }
   .menu_button_lines::after {
     transform: translateY(0.5rem);
@@ -146,9 +157,11 @@ h3 {
   }
   .menu-button.open .menu_button_lines::before {
     transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+    background-color: #f4f4f4;
   }
   .menu-button.open .menu_button_lines::after {
     transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+    background-color: #f4f4f4;
   }
   li {
     display: inline;
@@ -972,13 +985,13 @@ form {
     height:372px;
   }
   .index_content_container {
-    padding-top: 20%;
+    padding-top: 10%;
   }
   .home_container_1 {
-    margin: 5%;
+    margin: 1%;
   }
   .home_container_2 {
-    margin: 10%;
+    margin: 5%;
   }
   .title {
     font-size: 30px;
@@ -1239,7 +1252,7 @@ padding-top: 1%;
     left: 0;
     height: 100vh;
     transform: translateX(100vw);
-    background-color: #52658f;
+    background: #52658f;
     transition: transform 0.3s ease-in-out;
   }
   .menu-items.open {
@@ -1260,7 +1273,6 @@ padding-top: 1%;
   }
   .menu-items li a:hover {
     color:#373737;
-
   }
 
 }
