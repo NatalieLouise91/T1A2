@@ -16,7 +16,7 @@ The index page will provide an introduction to who I am and my tech experience. 
 - A professional profile image
 - Logo icons for HTML, CSS & Ruby
 - Linkedin & GitHub Icons that form links to each of my accounts
-- Copyright 
+- Copyright notice
 ### About Page
 The about page will enable the user to understand more about my interests, personality and ideas. Features on the about page include:
 - Navigation bar
@@ -24,7 +24,7 @@ The about page will enable the user to understand more about my interests, perso
 - Sections on my interests under the headings *"Develop"*, *"Collaborate"*, *"Language"* & *"Travel"*
 - A section introducing users to my blog, which includes links to individual blog posts
 - Linkedin & GitHub Icons that form links to each of my accounts
-- Copyright 
+- Copyright notice
 ### Experience Page
 The experience page will allow users to gain a greater insight into my academic background and professional work history. Features on the experience page include: 
 - Navigation bar
@@ -32,21 +32,21 @@ The experience page will allow users to gain a greater insight into my academic 
 - Sections on *"Bachelor of Arts"*, *"Master of Museum Studies"* & *"Diploma of IT"*
 - A download button for the user to download a copy of my resume
 - Linkedin & GitHub Icons that form links to each of my accounts
-- Copyright
+- Copyright notice
 ### Blog Page 
 The blog page provides the user with an understanding of my journey in becoming a web developer. Features on the blog page include:
 - Navigation bar
 - Five blog posts titled *"GitHub and Collaborating with Other Developers"*, *"CSS, SCSS or SASS"*, *"Understanding How Flexbox Operates"*, *"The Importance of Planning with Wireframes"*, & *"My Journey as a Newbie Web Developer"* each in individual article sections.
 - Five images, one in each article section
 - Linkedin & GitHub Icons that form links to each of my accounts
-- Copyright
+- Copyright notice
 ### Contact Page 
 The contact page allows users to reach out and send me a message. Features on the contact page include:
 - Navigation bar
 - A section that discloses my email & two buttons that link the user to my GitHub & Linkedin accounts
 - A Mailto form which allows the user to type and send me a message via email
 - Linkedin & GitHub Icons that form links to each of my accounts
-- Copyright
+- Copyright notice
 ## Sitemap
 ## Screenshots
 ## Target Audience

@@ -43,6 +43,14 @@ h3 {
   text-transform: uppercase;
   color:#373737;
 }
+.return_links {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size:16px;
+  text-transform: uppercase;
+  color:#373737
+}
 .authordate {
   text-align: center;
   padding: 1%;
@@ -168,15 +176,15 @@ h3 {
     display: inline;
   }
   a:link {
-    color:#004735;
+    color: #333a56;
     text-decoration: none;}
   a:visited {
-    color:black;}
+    color:#373737;}
   a:hover {
-    color: #c54731;
+    color: #c0b283;
     text-decoration: none;}
   a:active {
-    color: darkcyan;
+    color: #dcd0c0;
   }
   /* ^^universal styling across site^^ */
 
@@ -304,7 +312,6 @@ h3 {
     padding: 20px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    /* box-shadow: 1px 2px 3px 4px #52658f; */
     box-sizing: border-box;
     
   }
@@ -318,7 +325,6 @@ h3 {
     padding: 20px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    /* box-shadow: 1px 2px 3px 4px #52658f; */
     box-sizing: border-box;
     
   }
@@ -332,7 +338,6 @@ h3 {
     padding: 20px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    /* box-shadow: 1px 2px 3px 4px #52658f; */
     box-sizing: border-box;
   }
   .travel {
@@ -345,7 +350,6 @@ h3 {
     padding: 20px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    /* box-shadow: 1px 2px 3px 4px #52658f; */
     box-sizing: border-box;
   }
   .dev_img_container {
@@ -390,7 +394,7 @@ h3 {
     justify-content: center;
   }
   .blog_titles {
-    width: 90%;
+    width: 94%;
     height: 15%;
     background: #f4f4f4;
     font-size: 16px;
@@ -398,8 +402,8 @@ h3 {
     text-align: center;
     border: solid #333a56;
     border-radius: 25px;
-    margin: 2%;
-    padding: 1%;  
+    margin: 1%;
+    padding: 2%;  
   }
   /* end of styling for about page  */
 
