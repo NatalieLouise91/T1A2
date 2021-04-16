@@ -11,18 +11,33 @@
     <title>Natalie's Portfolio</title>
 </head>
 <body>
-    <header class=".header">
-        <nav class="navigation" id="myTopnav">
-            <div class="menu-button">
-                <div class= "menu_button_lines"></div>
-            </div>
-            <ul>
-            <li><a href="./index.html" class="menu-item">Home</a></li>
-            <li><a href="./about.html" class="menu-item">About</a></li>
-            <li><a href="./experience.html" class="menu-item">Experience</a></li>
-            <li><a href="./blogs.html" class="menu-item">Blogs</a></li>
-            <li><a href="./contact.html" class ="menu-item">Contact</a></li>
+    <header class ="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">NB</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class ="nav-item">
+                    <a href="experience.html" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blogs.html" class="nav-link">Blogs</a>
+                </li>
+                <li class ="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
             </ul>
+            <button class="hamburger_button">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            </button>
         </nav>
     </header>
     <section class="intro_about_me">
@@ -136,5 +151,6 @@
             <p>&copy; Copyright 2021 Natalie Bottema</p>
         </div>
     </footer>
+    <script src="main.js"></script> 
 </body>
 </html>

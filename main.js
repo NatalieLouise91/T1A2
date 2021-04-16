@@ -1,21 +1,17 @@
-const menuBtn = document.querySelector(".menu-button");
-const menuItems = document.querySelector(".menu-items");
-const menuItem = document.querySelectorAll(".menu-item");
-// main toggle
-menuBtn.addEventListener("click",() => {
-    toggle();
-});
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-// toggle on item click if open 
-menuItem.forEach(item => {
-    item.addEventListener("click", () => {
-      if menuBtn.classList.contains("open")) {
-         toggle();
-      }
-   });
-});
+hamburger.addEventListener("click", mobileMenu);
 
-function toggle() {
-    menuBtn.classList.toggle("open");
-    menuItems.classList.toggle("open");
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+const navLink = document.querySelectorAll(".navlink");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
 }

@@ -10,15 +10,35 @@
     <title>Natalie's Portfolio</title>
 </head>
 <body>
-    <nav>
-        <ul class="navigation">
-         <li><a href="./index.html">Home</a></li>
-         <li><a href="./about.html">About</a></li>
-         <li><a href="./experience.html">Experience</a></li>
-         <li><a href="./blogs.html">Blogs</a></li>
-         <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header class ="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">NB</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class ="nav-item">
+                    <a href="experience.html" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blogs.html" class="nav-link">Blogs</a>
+                </li>
+                <li class ="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="hamburger_button">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            </button>
+        </nav>
+    </header>
     <section class="index_content_container">
         <section class="home_container_1">
             <h1 class="title">Hello, My Name is Natalie.</h1>
@@ -44,5 +64,6 @@
             <p>&copy; Copyright 2021 Natalie Bottema</p>
         </div>
     </footer>
+    <script src="main.js"></script> 
 </body>
 </html>

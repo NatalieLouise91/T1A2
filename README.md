@@ -52,9 +52,7 @@ The contact page allows users to reach out and send me a message. Features on th
 ## Target Audience
 The target audience for the portfolio are potential employers looking to either collaborate or hire a junior developer or IT professional. Predominantly, employers will have a sound knowledge of information technology, software develoment, programming languages and development stacks. Additionally, the target audience will have high expectations of professionalism in regards to competence, skill, work ethic and attitude.
 ## Tech Stack
-The tech stack utilised in this portfolio project is HTML, CSS and JavaScript, In addition to the lanuages mentioned above, Netlify was the chosen deployment platform.
+The tech stack utilised in this portfolio project is HTML, CSS and JavaScript. In addition to the languages mentioned above, Netlify was the chosen deployment platform.
 ## Link to Portfolio Website
 ## Link to GitHub Repo
-
-
-
+Link to my [GitHub Repo](https://github.com/NatalieLouise91/T1A2.git)
