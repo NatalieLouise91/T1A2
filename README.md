@@ -54,5 +54,6 @@ The target audience for the portfolio are potential employers looking to either 
 ## Tech Stack
 The tech stack utilised in this portfolio project is HTML, CSS and JavaScript. In addition to the languages mentioned above, Netlify was the chosen deployment platform.
 ## Link to Portfolio Website
+Link to my [Portfolio Website](https://natalie-bottema-portfolio.netlify.app/)
 ## Link to GitHub Repo
 Link to my [GitHub Repo](https://github.com/NatalieLouise91/T1A2.git)

@@ -9,6 +9,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 100vh;
     font-size: 16px;
     color: #333a56;
@@ -19,7 +21,9 @@ body {
 h1 {
     width:90%;
     margin:1%;
-    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
     padding-bottom:0.5em;
     font-family: "Raleway", sans-serif;
     font-size: 32px;
@@ -83,25 +87,25 @@ h3 {
     position: static;
     bottom: 0; 
   }
-  .navigation {
-    position:absolute;
-    height: 5%;
-    width:100%;
-    padding: 0.5em,0;
-    background: #f4f4f4;
-    border-top: 2px solid #373737;
-    border-bottom: 2px solid #373737;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    word-spacing: 0.25em;
-    text-align:center;
-    font-size:20px;
-    font-family: 'Raleway', sans-serif;
-    color: #03143D;
+  /* .navigation { */
+    /* position:absolute; */
+    /* height: 5%; */
+    /* width:100%; */
+    /* padding: 0.5em,0; */
+    /* background: #f4f4f4; */
+    /* border-top: 2px solid #373737; */
+    /* border-bottom: 2px solid #373737; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.2em; */
+    /* word-spacing: 0.25em; */
+    /* text-align:center; */
+    /* font-size:20px; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* color: #03143D; */
     /* margin-right:100px; */
-    list-style-type: none;
-    overflow: hidden;
-  }
+    /* list-style-type: none; */
+    /* overflow: hidden; */
+  /* } */
 
 /* Navigation & Hamburger Menu  */
 li {
@@ -211,7 +215,7 @@ a {
     flex-wrap: wrap;
     width: 100%;
     margin: 1%;
-    padding-top: 5%; 
+    padding-top: 1%; 
     box-sizing: border-box;
   }
   .home_container_1 {
@@ -275,18 +279,32 @@ a {
   }
 
   /* start of styling for about page */
-
+  .about_page {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .intro_about_me {
     width: 100%;
     margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     text-align:center;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
   }
   .about_me {
     margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -304,6 +322,8 @@ a {
     justify-content: space-around;
     align-content: space-between;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
   .develop {
     width: 40%;
@@ -406,6 +426,8 @@ a {
     border: solid #333a56;
     border-radius: 25px;
     margin: 1%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2%;  
   }
   /* end of styling for about page  */
@@ -416,12 +438,16 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
   }
   .intro {
     width: 100%;
     height: 100%;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     color: #373737;
   }
   .bachelor_arts{
@@ -432,6 +458,8 @@ a {
     border-radius: 25px;
     padding: 20px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
   }
@@ -443,6 +471,8 @@ a {
     border-radius: 25px;
     padding: 20px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
   }
@@ -454,6 +484,8 @@ a {
     border-radius: 25px;
     padding: 20px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
   }
@@ -462,6 +494,8 @@ a {
     justify-content: center;
     align-items: center;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .button {
     background-color: #f4f4f4;
@@ -475,6 +509,8 @@ a {
     cursor: pointer;
     border-radius: 16px;
     transition-duration: 1s;
+    margin-left: auto;
+    margin-right: auto;
     
   }
   .button:hover {
@@ -608,7 +644,9 @@ textarea {
 form {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto; 
 }
 .contact_form {
   display: flex;
@@ -711,7 +749,7 @@ body {
 /* universal styling across site  */
 h1 {
   font-size: 20px;
-  padding-top: 50px;
+  padding: 10px;
 }
 h2{
   font-size: 17px;
@@ -732,13 +770,13 @@ p{
   padding: 10%;
 }
 .index_content_container {
-  padding-top: 20%;
+  padding-top: 5%;
 }
 .home_container_1 {
   margin: 5%;
 }
 .home_container_2 {
-  margin: 10%;
+  margin: 5%;
 }
 .title {
   font-size: 18px;
@@ -750,29 +788,48 @@ p{
 }
 /* about page styling */
 
+.intro_about_me {
+  margin: 1%;
+}
 .develop {
   width: 94%;
   min-height: 600px;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   padding: 5%; 
 }
 .collaborate {
   width: 94%;
   min-height: 600px;
-  margin-top: 1%; 
+  margin-top: 5%; 
   padding: 5%;  
 }
 .language {
   width: 94%;
   min-height: 600px; 
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   padding: 5%;  
 }
 .travel {
   width: 94%;
   min-height: 600px;
-  margin-top: 1%; 
+  margin-top: 5%; 
   padding: 5%; 
+}
+/* experience page styling  */
+.bachelor_arts {
+  margin: 3%; 
+}
+.master_museum_studies {
+  margin: 3%;
+}
+.diploma_it {
+  margin-top: 3%;
+}
+.resume {
+  margin-bottom: 5%;
+}
+.experience {
+  padding: 5%;
 }
 /* blog page styling  */
 .computer_img {
@@ -795,6 +852,21 @@ p{
   width:245px;
   height:163px; 
 }
+.blog5 {
+  margin-top: 1%;
+}
+.blog4 {
+  margin-top: 1%;
+}
+.blog3 {
+  margin-top: 1%;
+}
+.blog2 {
+  margin-top: 1%;
+}
+.blog1 {
+  margin-top: 1%;
+}
 /* contact page styling  */
 form {
   font-size: 16px;
@@ -812,7 +884,7 @@ form {
   }
   h1 {
     font-size: 20px;
-    padding-top: 50px;
+    padding: 20px;
   }
   h2{
     font-size: 17px;
@@ -832,13 +904,13 @@ form {
     height:266px;
   }
   .index_content_container {
-    padding-top: 20%;
+    padding-top: 3%;
   }
   .home_container_1 {
-    margin: 5%;
+    margin: 3%;
   }
   .home_container_2 {
-    margin: 10%;
+    margin: 3%;
   }
   .title {
     font-size: 19px;
@@ -849,30 +921,52 @@ form {
     padding-top: 1%;
   }
 /* about page styling */
-
 .develop {
   width: 94%;
   min-height: 600px;
   margin: 1%;
-  padding: 5%; 
+  padding: 5%;
+  margin-bottom: 5%; 
 }
 .collaborate {
   width: 94%;
   min-height: 600px;
   margin: 1%; 
-  padding: 5%;  
+  padding: 5%; 
+  margin-top: 5%; 
 }
 .language {
   width: 94%;
   min-height: 600px; 
   margin: 1%;
-  padding: 5%;  
+  padding: 5%; 
+  margin-bottom: 5%; 
 }
 .travel {
   width: 94%;
   min-height: 600px;
   margin: 1%; 
   padding: 5%; 
+  margin-top: 5%;
+}
+.blog_titles {
+  margin-bottom: 5%;
+}
+/* experience page styling  */
+.bachelor_arts {
+  margin: 3%; 
+}
+.master_museum_studies {
+  margin: 3%;
+}
+.diploma_it {
+  margin-top: 3%;
+}
+.resume {
+  margin-bottom: 5%;
+}
+.experience {
+  padding: 5%;
 }
   /* blog page styling  */
   .computer_img {
@@ -895,6 +989,21 @@ form {
     width:280px;
     height:186px; 
   }
+  .blog5 {
+    margin-top: 1%;
+  }
+  .blog4 {
+    margin-top: 1%;
+  }
+  .blog3 {
+    margin-top: 1%;
+  }
+  .blog2 {
+    margin-top: 1%;
+  }
+  .blog1 {
+    margin-top: 1%;
+  }
   /* contact page styling */
 form {
   font-size: 16px;
@@ -912,7 +1021,7 @@ form {
   }
   h1 {
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
   }
   h2{
     font-size: 18px;
@@ -932,13 +1041,16 @@ form {
     height:296px;
   }
   .index_content_container {
-    padding-top: 20%;
+    padding-top: 3%;
   }
   .home_container_1 {
-    margin: 5%;
+    margin: 3%;
+    padding: 10px;
+    width: 80%;
   }
   .home_container_2 {
-    margin: 10%;
+    margin: 3%;
+    padding: 10px;
   }
   .title {
     font-size: 20px;
@@ -949,30 +1061,52 @@ form {
     padding-top: 1%;
   }
 /* about page styling */
-
 .develop {
   width: 94%;
   min-height: 600px;
   margin: 1%;
   padding: 5%; 
+  margin-bottom: 4%;
 }
 .collaborate {
   width: 94%;
   min-height: 600px;
   margin: 1%; 
-  padding: 5%;  
+  padding: 5%;
+  margin-top: 4%;  
 }
 .language {
   width: 94%;
   min-height: 600px; 
   margin: 1%;
   padding: 5%;  
+  margin-bottom:4%;
 }
 .travel {
   width: 94%;
   min-height: 600px;
   margin: 1%; 
   padding: 5%; 
+  margin-top: 4%;
+}
+.blog_titles {
+  margin-bottom: 5%;
+}
+/* experience page styling  */
+.bachelor_arts {
+  margin: 3%; 
+}
+.master_museum_studies {
+  margin: 3%;
+}
+.diploma_it {
+  margin-top: 3%;
+}
+.resume {
+  margin-bottom: 5%;
+}
+.experience {
+  padding: 5%;
 }
   /* blog page styling  */
   .computer_img {
@@ -995,6 +1129,21 @@ form {
     width:350px;
     height:233px; 
   }
+  .blog5 {
+    margin-top: 1%;
+  }
+  .blog4 {
+    margin-top: 1%;
+  }
+  .blog3 {
+    margin-top: 1%;
+  }
+  .blog2 {
+    margin-top: 1%;
+  }
+  .blog1 {
+    margin-top: 1%;
+  }
 /* contact page styling */
   form {
   font-size: 16px;
@@ -1012,7 +1161,7 @@ form {
   }
   h1 {
     font-size: 22px;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   h2{
     font-size: 18px;
@@ -1032,13 +1181,14 @@ form {
     height:414px;
   }
   .index_content_container {
-    padding-top: 20%;
+    padding-top: 4%;
   }
   .home_container_1 {
-    margin: 5%;
+    margin: 4%;
+    width: 85%;
   }
   .home_container_2 {
-    margin: 10%;
+    margin: 4%;
   }
   .title {
     font-size: 25px;
@@ -1055,26 +1205,44 @@ form {
   min-height: 500px;
   margin: 1%;
   padding: 5%; 
+  margin-bottom: 3%;
 }
 .collaborate {
   width: 94%;
   min-height: 500px;
   margin: 1%; 
-  padding: 5%;  
+  padding: 5%;
+  margin-top: 3%;  
 }
 .language {
   width: 94%;
   min-height: 500px; 
   margin: 1%;
   padding: 4%;
-  padding-bottom: 1%;
+  margin-bottom: 3%;
 }
 .travel {
   width: 94%;
   min-height: 500px;
   margin: 1%; 
   padding: 4%;
-  padding-top: 1%;
+  margin-top: 3%;
+}
+/* experience page styling  */
+.bachelor_arts {
+  margin: 2%; 
+}
+.master_museum_studies {
+  margin: 2%;
+}
+.diploma_it {
+  margin-top: 2%;
+}
+.resume {
+  margin-bottom: 5%;
+}
+.experience {
+  padding: 3%;
 }
    /* blog page styling  */
   .computer_img {
@@ -1097,10 +1265,28 @@ form {
     width:490px;
     height:326px; 
   }
+  .blog5 {
+    margin-top: 1%;
+  }
+  .blog4 {
+    margin-top: 1%;
+  }
+  .blog3 {
+    margin-top: 1%;
+  }
+  .blog2 {
+    margin-top: 1%;
+  }
+  .blog1 {
+    margin-top: 1%;
+  }
 /* contact page styling */
   form {
     font-size: 17px;
     padding: 5%; 
+  }
+  .contact_content_all {
+    margin-top: 1.5%;
   }
 }
 /* End of Media Queries for Tablet*/
@@ -1113,7 +1299,7 @@ form {
   }
   h1 {
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 25px;
   }
   h2{
     font-size: 20px;
@@ -1133,13 +1319,14 @@ form {
     height:473px;
   }
   .index_content_container {
-    padding-top: 10%;
+    padding-top: 3%;
   }
   .home_container_1 {
-    margin: 1%;
+    margin: 3%;
+    width: 80%;
   }
   .home_container_2 {
-    margin: 5%;
+    margin: 3%;
   }
   .title {
     font-size: 30px;
@@ -1152,25 +1339,40 @@ form {
 /* about page styling */
 
   .develop {
-    width: 40%;
+    width: 45%;
     margin: 1%;
     padding: 1%; 
   }
   .collaborate {
-    width: 40%;
+    width: 45%;
     margin: 1%; 
-    padding: 1%;  
+    padding: 1%;   
   }
   .language {
-    width: 40%; 
+    width: 45%; 
     margin: 1%;
     padding: 1%;  
   }
   .travel {
-    width: 40%;
+    width: 45%;
     margin: 1%; 
     padding: 1%; 
-
+  }
+/* experience page styling  */
+  .bachelor_arts {
+    margin: 2%; 
+  }
+  .master_museum_studies {
+    margin: 2%;
+  }
+  .diploma_it {
+    margin-top: 2%;
+  }
+  .resume {
+    margin-bottom: 3%;
+  }
+  .experience {
+    padding: 3%;
   }
 /* blog page styling  */
   .computer_img {
@@ -1193,6 +1395,21 @@ form {
     width:560px;
     height:372px; 
   }
+  .blog5 {
+    margin-top: 1%;
+  }
+  .blog4 {
+    margin-top: 1%;
+  }
+  .blog3 {
+    margin-top: 1%;
+  }
+  .blog2 {
+    margin-top: 1%;
+  }
+  .blog1 {
+    margin-top: 1%;
+  }
 /* contact page styling */
   form {
     font-size: 17px;
@@ -1201,6 +1418,7 @@ form {
   .contact_content_all {
     display:flex;
     flex-direction: row;
+    margin-top: 1.5%;
   }
   .contact_info {
     display: flex;
@@ -1230,7 +1448,7 @@ form {
   }
   h1 {
     font-size:25px;
-    padding-top: 65px;
+    padding-top: 20px;
   }
   h2 {
     font-size:22px;
@@ -1250,13 +1468,13 @@ form {
     height:532px;
  }
  .index_content_container {
-  padding-top: 10%;
+  padding-top: 2%;
 }
 .home_container_1 {
-  margin: 5%;
+  margin: 2%;
 }
 .home_container_2 {
-  margin: 5%;
+  margin: 2%;
 }
 .title {
   font-size: 35px;
@@ -1269,25 +1487,41 @@ form {
 /* about page styling */
 
 .develop {
-  width: 40%;
+  width: 45%;
   margin: 1%;
-  padding: 1%; 
+  padding: 2%; 
 }
 .collaborate {
-  width: 40%;
+  width: 45%;
   margin: 1%; 
-  padding: 1%;  
+  padding: 2%;  
 }
 .language {
-  width: 40%; 
+  width: 45%; 
   margin: 1%;
-  padding: 1%;  
+  padding: 2%;  
 }
 .travel {
-  width: 40%;
+  width: 45%;
   margin: 1%; 
-  padding: 1%; 
+  padding: 2%; 
 
+}
+/* experience page styling  */
+.bachelor_arts {
+  margin: 1%; 
+}
+.master_museum_studies {
+  margin: 1%;
+}
+.diploma_it {
+  margin-top: 1%;
+}
+.resume {
+  margin-bottom: 1%;
+}
+.experience {
+  padding: 2%;
 }
 /* blog page styling  */
   .computer_img {
@@ -1310,6 +1544,31 @@ form {
     width: 630px;
     height: 419px; 
   }
+  .blog1 {
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .blog2 {
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .blog3 {
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .blog4 {
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .blog5 {
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 /* contact page styling */
   form {
     font-size: 18px;
@@ -1318,6 +1577,7 @@ form {
   .contact_content_all {
     display:flex;
     flex-direction: row;
+    margin-top: 1.5%;
   }
 }
 /* End of Media Queries for Large Laptop  */
@@ -1333,7 +1593,7 @@ form {
   }
   h1 {
     font-size: 40px;
-    padding-top: 90px;
+    padding-top: 40px;
   }
   h2{
     font-size: 30px;
@@ -1350,13 +1610,13 @@ form {
   height:591px;
 }
 .index_content_container {
-padding-top: 10%;
+padding-top: 1%;
 }
 .home_container_1 {
 margin: 5%;
 }
 .home_container_2 {
-margin: 5%;
+margin: 1.5%;
 }
 .title {
 font-size: 40px;
@@ -1369,26 +1629,44 @@ padding-top: 1%;
 /* about page styling */
 
 .develop {
-  width: 40%;
+  width: 47%;
   margin: 1%;
   padding: 1%; 
 }
 .collaborate {
-  width: 40%;
+  width: 47%;
   margin: 1%; 
   padding: 1%;  
 }
 .language {
-  width: 40%; 
+  width: 47%; 
   margin: 1%;
   padding: 1%;  
 }
 .travel {
-  width: 40%;
+  width: 47%;
   margin: 1%; 
   padding: 1%; 
-
 }
+.blog_titles {
+  margin: 1%;
+}
+/* experience page styling  */
+  .bachelor_arts {
+    margin: 0.5%; 
+  }
+  .master_museum_studies {
+    margin: 0.5%;
+  }
+  .diploma_it {
+    margin-top: 0.5%;
+  }
+  .resume {
+    margin-bottom: 0.5%;
+  }
+  .experience {
+    padding: 1%;
+  }
 /* blog page styling  */
   .computer_img {
     width:600px;
@@ -1412,18 +1690,28 @@ padding-top: 1%;
   }
   .blog1 {
     padding: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
   .blog2 {
     padding: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
   .blog3 {
     padding: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
   .blog4 {
     padding: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
   .blog5 {
     padding: 20px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 /* contact page styling */
   form {
@@ -1433,6 +1721,7 @@ padding-top: 1%;
   .contact_content_all {
     display:flex;
     flex-direction: row;
+    margin-top: 1%;
   }
 }
 /* End of Media Queries for Desktop  */
