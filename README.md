@@ -48,6 +48,7 @@ The contact page allows users to reach out and send me a message. Features on th
 - Linkedin & GitHub Icons that form links to each of my accounts
 - Copyright notice
 ## Sitemap
+The sitemap of the portfolio can be found [here](./resources/docs/Sitemap)
 ## Screenshots
 ## Target Audience
 The target audience for the portfolio are potential employers looking to either collaborate or hire a junior developer or IT professional. Predominantly, employers will have a sound knowledge of information technology, software develoment, programming languages and development stacks. Additionally, the target audience will have high expectations of professionalism in regards to competence, skill, work ethic and attitude.
