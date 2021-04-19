@@ -48,12 +48,35 @@ The contact page allows users to reach out and send me a message. Features on th
 - Linkedin & GitHub Icons that form links to each of my accounts
 - Copyright notice
 ## Sitemap
-The sitemap of the portfolio can be found [here](./resources/docs/Sitemap)
+- A visual sitemap of the portfolio can be found [here](./resources/docs/sitemap/sitemap.png)
+- A XML version of a site map can be found [here](./resources/docs/sitemap/sitemap.xml)
 ## Screenshots
+### Screenshots for Index page:
+1. [Mobile design](./resources/docs/screenshots/index-page-mobile.png) 
+2. [Tablet design](./resources/docs/screenshots/index-page-tablet.png)
+3. [Desktop design](./resources/docs/screenshots/index-page-desktop.png)
+### Screenshots for About page:
+1. [Mobile design](./resources/docs/screenshots/about-page-mobile.png) 
+2. [Tablet design](./resources/docs/screenshots/about-page-tablet.png)
+3. [Desktop design](./resources/docs/screenshots/about-page-desktop.png)
+### Screenshots for Experience page:
+1. [Mobile design](./resources/docs/screenshots/experience-page-mobile.png) 
+2. [Tablet design](./resources/docs/screenshots/experience-page-tablet.png)
+3. [Desktop design](./resources/docs/screenshots/experience-page-desktop.png) 
+### Screenshots for Blogs page:
+1. [Mobile design](./resources/docs/screenshots/blogs-page-mobile.png) 
+2. [Tablet design](./resources/docs/screenshots/blogs-page-tablet.png)
+3. [Desktop design](./resources/docs/screenshots/blogs-page-desktop.png)
+### Screenshots for Contact page:
+1. [Mobile design](./resources/docs/screenshots/contact-page-mobile.png) 
+2. [Tablet design](./resources/docs/screenshots/contact-page-tablet.png)
+3. [Desktop design](./resources/docs/screenshots/contact-page-desktop.png)
+
 ## Target Audience
 The target audience for the portfolio are potential employers looking to either collaborate or hire a junior developer or IT professional. Predominantly, employers will have a sound knowledge of information technology, software develoment, programming languages and development stacks. Additionally, the target audience will have high expectations of professionalism in regards to competence, skill, work ethic and attitude.
 ## Tech Stack
 The tech stack utilised in this portfolio project is HTML, CSS and JavaScript. In addition to the languages mentioned above, Netlify was the chosen deployment platform.
+Images sourced through [shutterstock](https://www.shutterstock.com/home)
 ## Link to Portfolio Website
 Link to my [Portfolio Website](https://natalie-bottema-portfolio.netlify.app/)
 ## Link to GitHub Repo
