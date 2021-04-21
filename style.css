@@ -57,7 +57,8 @@ h3 {
   font-size:16px;
   text-transform: uppercase;
   color:#373737;
-  padding-top: 2%;
+  margin-bottom: 30px;
+  padding: 2%;
 }
 .authordate {
   text-align: center;
@@ -143,7 +144,7 @@ a {
   color: #52658f;
 }
 .nav-logo {
-  font-size: 2.1rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #52658f;
 }
@@ -500,7 +501,7 @@ a {
   .button:hover {
     background-color: #333a56;
     color:#f4f4f4;
-
+    font-size: 18px;
   }
   /* end of styling for experience page */
 
