@@ -84,26 +84,46 @@ Link to my [GitHub Repo](https://github.com/NatalieLouise91/T1A2.git)
 ### Images & Graphics
 at-Scene, 2021 *"Monochrome Web Icon"*. Available at: https://www.shutterstock.com/image-vector/monochrome-web-icon-1121260172 [accessed 16 April 2021]
 
-Chaosamran_Studio 2021, *"UX graphic designer creative sketch planning"* Available at: https://www.shutterstock.com/image-photo/ux-graphic-designer-creative-sketch-planning-1124500499 [accessed 13 April 2021]
+Chaosamran_Studio 2021, *"UX graphic designer creative sketch planning"* 
+Available at: https://www.shutterstock.com/image-photo/ux-graphic-designer-creative-sketch-planning-1124500499 [accessed 13 April 2021]
 
-Enterlinedesign, 2021 *"CSS written in vintage ink stained wooden letterpress"*. Available at: https://www.shutterstock.com/image-photo/word-css-written-vintage-ink-stained-348645869 [accessed on 14 April 2021]
+Enterlinedesign, 2021 *"CSS written in vintage ink stained wooden letterpress"*. 
+Available at: https://www.shutterstock.com/image-photo/word-css-written-vintage-ink-stained-348645869 [accessed on 14 April 2021]
 
-Good Ware, 2021 *"Airplane free icon"*. Available at: https://www.flaticon.com/free-icon/airplane_1085493?term=travel&page=1&position=14&page=1&position=14&related_id=1085493&origin=tag [accessed 16 April 2021]
+Freepik, 2021 *"Html5 free icon"*. 
+Available at: https://www.flaticon.com/free-icon/html5_152843# [accessed 10 April 2021]
 
-GitHub, 2021 *"GitHub Mark"* Available at: https://github.com/logos [accessed 8 April 2021]
+Good Ware, 2021 *"Airplane free icon"*. 
+Available at: https://www.flaticon.com/free-icon/airplane_1085493?term=travel&page=1&position=14&page=1&position=14&related_id=1085493&origin=tag [accessed 16 April 2021]
 
-Hapanovich, Z 2021 *"CSS acronym on wooden cubes"*. Available at: https://www.shutterstock.com/image-photo/css-cascading-style-sheets-acronym-on-1910796253 [accessed 13 April 2021]
+GitHub, 2021 *"GitHub Mark"* 
+Available at: https://github.com/logos [accessed 8 April 2021]
 
-Hero Patterns, 2021 *"Morphing Diamonds Repeatable SVG Background"* Available at: https://www.heropatterns.com/ [accessed on 8 April 2021]
+Hapanovich, Z 2021 *"CSS acronym on wooden cubes"*. 
+Available at: https://www.shutterstock.com/image-photo/css-cascading-style-sheets-acronym-on-1910796253 [accessed 13 April 2021]
 
-Hossain, D 2021 *"Business Development Icon"*. Available at: https://www.shutterstock.com/image-vector/business-development-icon-643889929 [accessed 16 April 2021]
+Hero Patterns, 2021 *"Morphing Diamonds Repeatable SVG Background"*. 
+Available at: https://www.heropatterns.com/ [accessed on 8 April 2021]
 
-Linkedin, 2021 *"LinkedIn Logo"*. Available at: https://brand.linkedin.com/downloads [accessed 8 April 2021]
+Hossain, D 2021 *"Business Development Icon"*. 
+Available at: https://www.shutterstock.com/image-vector/business-development-icon-643889929 [accessed 16 April 2021]
 
-Oatawa, 2021 *"Closeup coding on screen"*. Available at: https://www.shutterstock.com/image-photo/closeup-coding-on-screen-woman-hands-672470545 [accessed 13 April 2021]
+Icons8, 2021 *"Ruby Programming Language Icon"*.
+Available at: https://icons8.com/icons/set/ruby-programming-language [accessed 10 April 2021]
 
-Pikepicture, 2021 *"Earth Globe in Quote Frame Icon Thin Line Vector"*. Available at: https://www.shutterstock.com/image-vector/earth-globe-quote-frame-icon-thin-1660853650 [accessed 16 April 2021]
+Linkedin, 2021 *"LinkedIn Logo"*.
+Available at: https://brand.linkedin.com/downloads [accessed 8 April 2021]
 
-Swat, P 2021, *"GitHub webstie on smartphone hidden in jeans pocket"*. Available at: https://www.shutterstock.com/image-photo/konskie-poland-june-09-2018-github-1109565767 [accessed 13 April 2021]
+Oatawa, 2021 *"Closeup coding on screen"*.
+Available at: https://www.shutterstock.com/image-photo/closeup-coding-on-screen-woman-hands-672470545 [accessed 13 April 2021]
+
+Pikepicture, 2021 *"Earth Globe in Quote Frame Icon Thin Line Vector"*.
+Available at: https://www.shutterstock.com/image-vector/earth-globe-quote-frame-icon-thin-1660853650 [accessed 16 April 2021]
+
+Pixel Perfect, 2021 *"CSS 3 Free Icon"*.
+Available at: https://www.flaticon.com/free-icon/css-3_732007?term=css&page=1&position=7&page=1&position=7&related_id=732007&origin=style [accessed 10 April 2021]
+
+Swat, P 2021, *"GitHub webstie on smartphone hidden in jeans pocket"*.
+Available at: https://www.shutterstock.com/image-photo/konskie-poland-june-09-2018-github-1109565767 [accessed 13 April 2021]
 
 
