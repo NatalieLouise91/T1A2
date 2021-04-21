@@ -9,9 +9,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 100vh;
+    min-height: 100vh;
     font-size: 16px;
     color: #333a56;
     font-family: "Raleway", sans-serif;
@@ -54,59 +56,42 @@ h3 {
   font-family: "Raleway", sans-serif;
   font-size:16px;
   text-transform: uppercase;
-  color:#373737
+  color:#373737;
+  padding-top: 2%;
 }
 .authordate {
   text-align: center;
   padding: 1%;
 }
-  .copyright {
+  #copyright {
+    align-self: center;
+    padding-right: 25%;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
     word-spacing: 0.25em;
     text-align: center;
     text-transform: uppercase;
   }
-  .media_icons {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1%;
-  }
   .linkedin {
-    padding-right: 5px;
+    padding-right: 6px;
+    align-self: center;
   }
   .github {
-    padding-left: 5px; 
+    padding-left: 6px; 
+    align-self: center;
   }
 
   .footer {
     width:100%;
-    height: 10%;
+    height: 3rem;
     background: #f4f4f4;
-    margin: 0;
-    position: static;
+    padding: 10px;
+    position: absolute;
     bottom: 0; 
+    display: flex;
+    justify-content: flex-end;
+    
   }
-  /* .navigation { */
-    /* position:absolute; */
-    /* height: 5%; */
-    /* width:100%; */
-    /* padding: 0.5em,0; */
-    /* background: #f4f4f4; */
-    /* border-top: 2px solid #373737; */
-    /* border-bottom: 2px solid #373737; */
-    /* text-transform: uppercase; */
-    /* letter-spacing: 0.2em; */
-    /* word-spacing: 0.25em; */
-    /* text-align:center; */
-    /* font-size:20px; */
-    /* font-family: 'Raleway', sans-serif; */
-    /* color: #03143D; */
-    /* margin-right:100px; */
-    /* list-style-type: none; */
-    /* overflow: hidden; */
-  /* } */
-
 /* Navigation & Hamburger Menu  */
 li {
   list-style: none;
@@ -169,8 +154,6 @@ a {
   background: none; 
 }
 
-
-
   li {
     display: inline;
   }
@@ -216,6 +199,7 @@ a {
     width: 100%;
     margin: 1%;
     padding-top: 1%; 
+    padding-bottom: 3rem;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -289,6 +273,7 @@ a {
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2.5rem;
   }
   .intro_about_me {
     width: 100%;
@@ -439,6 +424,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
+    padding-bottom: 3rem;
   }
   .intro {
     width: 100%;
@@ -526,6 +512,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom: 3rem;
   }
   .blog1 {
     background: #E8E8E8;
@@ -595,23 +582,28 @@ a {
   .computer_img {
     width:480px;
     height:320px;
+    border-radius: 25px;
  }
   .wireframe_img {
     width:560px;
     height:373px;
+    border-radius: 25px;
 
  }
   .flex_img {
     width: 560px;
     height: 372px;
+    border-radius: 25px;
  }
   .css_img {
     width: 560px;
     height: 347px;
+    border-radius: 25px;
  }
   .github_img {
     width: 560px;
     height: 372px;
+    border-radius: 25px;
 }
 /* end of styling for blog page  */
 /* start of styling for contact page  */
@@ -669,8 +661,8 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
   margin-top: 5%;
+  padding-bottom: 3rem;
 }
 .github_button {
   background-color: #f4f4f4;
@@ -757,6 +749,11 @@ h3{
 }
 p{
   font-size:14px;
+}
+#copyright {
+  align-self: center;
+  padding-right: 25%;
+  font-size: 7px;
 }
 .navigation {
   font-size: 14px;
@@ -892,6 +889,11 @@ form {
   }
   p{
     font-size:14px;
+  }
+  #copyright {
+    align-self: center;
+    padding-right: 25%;
+    font-size: 9px;
   }
   .navigation {
     font-size: 14px;
@@ -1029,6 +1031,11 @@ form {
   }
   p{
     font-size:15px;
+  }
+  #copyright {
+    align-self: center;
+    padding-right: 27%;
+    font-size: 11px;
   }
   .navigation {
     font-size: 15px;
@@ -1170,6 +1177,11 @@ form {
   p{
     font-size:16px;
   }
+  #copyright {
+    align-self: center;
+    padding-right: 23%;
+    font-size: 12px;
+  }
   .navigation {
     font-size: 16px;
   }
@@ -1307,6 +1319,11 @@ form {
   }
   p{
     font-size:16px;
+  }
+  #copyright {
+    align-self: center;
+    padding-right: 26%;
+    font-size: 16px;
   }
   .navigation {
     font-size: 18px;
@@ -1457,6 +1474,11 @@ form {
   p {
     font-size:17px;
   }
+  #copyright {
+    align-self: center;
+    padding-right: 32%;
+    font-size: 16px;
+  }
   .navigation {
     font-size: 20px;
   }
@@ -1568,9 +1590,13 @@ form {
     margin-bottom: 2%;
   }
 /* contact page styling */
-  form {
-    font-size: 18px;
-    padding: 5%;
+  .contact_form {
+    font-size: 20px;
+    padding: 2%;
+  }
+  .contact_info {
+    font-size: 20px;
+    padding: 2%;
   }
   .contact_content_all {
     display:flex;
@@ -1601,6 +1627,11 @@ form {
   }
   p{
     font-size:20px;
+  }
+  #copyright {
+    align-self: center;
+    padding-right: 40%;
+    font-size: 16px;
   }
 /* index page styling  */
 .profile_img {
@@ -1651,19 +1682,26 @@ padding-top: 1%;
 }
 /* experience page styling  */
   .bachelor_arts {
-    margin: 0.5%; 
+    margin: 2%; 
+    padding: 3%;
   }
   .master_museum_studies {
-    margin: 0.5%;
+    margin: 2%;
+    padding: 3%;
+    
   }
   .diploma_it {
-    margin-top: 0.5%;
+    margin: 2%;
+    padding: 3%;
+    
   }
   .resume {
     margin-bottom: 0.5%;
+    
   }
   .experience {
     padding: 1%;
+
   }
 /* blog page styling  */
   .computer_img {
@@ -1712,15 +1750,59 @@ padding-top: 1%;
     margin-bottom: 1.5%;
   }
 /* contact page styling */
-  form {
-    font-size: 20px;
-    padding: 5%;
-  }
+  .contact_form {
+  font-size: 30px;
+  padding: 2%;
+}
+  .contact_info {
+  font-size: 30px;
+  padding: 2%;
+}
   .contact_content_all {
     display:flex;
     flex-direction: row;
-    margin-top: 1%;
+    margin-top: 8%;
+}
+  input[type=text] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      box-sizing: border-box;
+      border: solid 2px #333a56;
+      border-radius: 10px;
+      background-color: #f4f4f4;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      box-sizing: border-box;
+      border: solid 2px #333a56;
+      border-radius: 10px;
+      background-color: #f4f4f4;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      resize: none;
+    }
+    form {
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto; 
   }
+  .github_button {
+    font-size: 20px;
+  }
+  .linkedin_button {
+    font-size: 20px;
+  }
+  input[type=submit] {
+    font-size: 20px;
+  }
+
 }
 /* End of Media Queries for Desktop  */
 
